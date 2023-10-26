@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    border-radius: 10%;
+
+
+
+
+   
+}
+.contained{
+    display: inline;
+    /* padding-top: 200px; */
+        
+    
+    
+  
+}
+
+
+
+.buttons
+{
+    
+    display: flex;
+    /* padding-top: 200px;
+    padding-left: 200px; */
+    width: 100px;
+    height: 50px;
+    border-radius: 75px;
+    gap: 20px;
+
+}
+.content{
+        width: 300px;
+}
+.follow{
+    padding-top: 100px;
+    padding-left: 100px;
+}
