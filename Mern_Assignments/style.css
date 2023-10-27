@@ -1,0 +1,39 @@
+
+
+
+.container{
+    
+    border: 50px solid green;
+    margin-top:  50px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 250px;
+    
+    
+
+
+}
+.bor{ 
+    border: 30px solid purple;
+
+}
+.pad{ 
+    /* background-color: beige; */
+    border: 10px solid white;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+
+
+}
+.content{ 
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
