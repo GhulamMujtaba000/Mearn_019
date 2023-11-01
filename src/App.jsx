@@ -7,7 +7,7 @@ function App() {
   return (<React.Fragment>
     <div className="container">
       <div className="item">
-        <h1>Hello React </h1>
+        <h1>Helo React </h1>
         </div>
         <div className="item">
         <h1>Hello React </h1>
