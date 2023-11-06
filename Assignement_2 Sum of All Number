@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of All</title>
+</head>
+<body>
+
+    <h1>Sum Of All Number</h1>
+
+    <script>
+
+        let num=prompt("Please Enter the number and you will get sun of all number :");
+            let result=0;
+            for (let index = 0; index <= num; index++) {
+                result=result+index;
+                
+                console.log("Sum of all number !"+result);
+
+            }
+
+
+    </script>
+
+    <h1> </h1>
+    
+</body>
+</html>
