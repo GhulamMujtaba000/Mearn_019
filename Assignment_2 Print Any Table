@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+
+    <h1>Print the any table take input from user</h1>
+
+    <script>
+                let userName=prompt("Please enter the Table");
+                let table_num=prompt("plesa enter number of time that you want run this table")
+            
+    
+    </script>
+
+  
+        <script>
+        
+            for (let index = 1; index <= table_num; index++) {
+                console.log(userName+" x "+index+" = "+userName*index ); 
+            }
+        </script>
+
+    
+</body>
+</html>
