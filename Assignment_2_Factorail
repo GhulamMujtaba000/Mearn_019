@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+<body>
+
+    <script>
+        let user=prompt("Please Enter the Factorial!");
+        let result=1;
+
+        for (let index = 1; index <= user; index++) {
+            let num=0;
+            num=result*index;
+            result=num;
+            console.log("Factorial  !"+result);
+
+        }
+
+    </script>
+    
+</body>
+</html>
