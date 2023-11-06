@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min and Max Array</title>
+</head>
+<body>
+
+    <h1>Min and max Array</h1>
+
+    <script>
+        let arr=[4,5,8,1,10,0,9,7,6,31,12];
+        let element=[];
+        
+
+        for (let index = 0; index <= arr.length; index++) {
+          
+            console.log(element.push(arr[index]).sort);
+           
+
+
+            
+
+
+            
+
+            
+        }
+        console.log("element :"+element.sort());
+
+
+        console.log("length of the array:"+arr.length)
+        minResult=element[0];
+        maxResult=element[arr.length-1]
+
+        console.log("This is a Minimum number of given arry :"+minResult)
+        console.log("This is a Minimum number of given arry :"+maxResult)
+
+    </script>
+
+
+    
+</body>
+</html>
