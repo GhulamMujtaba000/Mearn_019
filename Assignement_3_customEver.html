@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costom Every Method</title>
+</head>
+<body>
+    <script>
+                        const arr=[1,24,6,7,8,9,20]
+
+                        function coustomEvery (array1)
+                        {
+                            let anotherArray=[""];
+
+
+                             for (let index = 0; index < array1.length; index++) {
+
+                                anotherArray=[""];
+
+                                        if (array1[index]>=18)
+                                        {
+                                                 anotherArray.push([index]="true");
+                                                 }
+                                                 else{anotherArray[index]="false";
+                                                
+                                                 break; }
+
+
+
+                                    
+                                
+                             }
+
+
+                                return  anotherArray;
+
+                        }
+
+                        const result=coustomEvery(arr)
+                                        alert(result);
+    </script>
+    
+</body>
+</html>

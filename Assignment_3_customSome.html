@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costom Some Method</title>
+</head>
+<body>
+    <script>
+                        const arr=[1,24,6,7,8,9,20]
+
+                        function coustomSome (array1)
+                        {
+                            let anotherArray=[""];
+
+
+                             for (let index = 0; index < array1.length; index++) {
+
+                                anotherArray=[""];
+
+                                        if (array1[index]>=18)
+                                        {
+                                                 anotherArray.push([index]="true");
+                                                 break; }
+                                                 else{anotherArray[index]="false";}
+
+
+
+                                    
+                                
+                             }
+
+
+                                return  anotherArray;
+
+                        }
+
+                        const result=coustomSome(arr)
+                                        alert(result);
+    </script>
+    
+</body>
+</html>
